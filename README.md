@@ -46,7 +46,7 @@ Install **Visual Studio Build Tools**:
   * MSVC v143 compiler
   * Windows 10/11 SDK
 
-#### 🧠 Why MSVC is required
+#### Why MSVC is required
 
 PyTorch C++ extensions on Windows require the **Microsoft Visual C++ compiler (`cl.exe`)**. This is used to compile `custom_op.cpp` into a Python-loadable binary.
 
@@ -144,22 +144,20 @@ tensor([ 3.,  6., 11.])
         +--------------------------------------+
 ```
 
-### ⚡ Why this architecture is powerful
+### Why this architecture is powerful
 * **Python** handles orchestration (easy development)
 * **C++** handles compute-heavy operations (speed)
 * **PyTorch** provides tensor backend (ML support)
 * **pybind11** connects both worlds (binding layer)
 
----
-
-## 🧠 Key Concepts Learned
+## Key Concepts Learned
 * Building native Python extensions
 * Using MSVC compiler on Windows
 * Integrating C++ with PyTorch
 * Writing high-performance tensor operations
 * Understanding Python ↔ C++ interoperability
 
-## 🔥 Use cases of this pattern
+## Use cases of this pattern
 * Custom PyTorch operations
 * Deep learning optimizations
 * GPU kernel extensions (CUDA version)
@@ -167,8 +165,6 @@ tensor([ 3.,  6., 11.])
 * Production ML inference engines
 
 ---
-
-## 📌 Summary
 
 This project demonstrates how to extend Python with fast C++ code using PyTorch’s extension system and pybind11 bindings. It is a foundational pattern used in real-world ML frameworks and research systems.
 
