@@ -1,8 +1,10 @@
----
-tags: [cpp, pytorch, pybind11, custom-operator, machine-learning, python-extension]
----
-
 # Custom PyTorch C++ Operator using pybind11
+
+![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=flat&logo=c%2B%2B&logoColor=white)
+![Python](https://img.shields.io/badge/python-3.8+-blue.svg?style=flat&logo=python&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=flat&logo=PyTorch&logoColor=white)
+![pybind11](https://img.shields.io/badge/pybind11-binding-blueviolet.svg)
+![Windows](https://img.shields.io/badge/Windows-0078D6?style=flat&logo=windows&logoColor=white)
 
 This project demonstrates how to build a custom high-performance C++ operator and expose it to Python using **pybind11** and **PyTorch C++ extensions**.
 
