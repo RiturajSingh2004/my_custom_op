@@ -1,0 +1,15 @@
+#Build artifacts
+build/
+
+# Build directories
+temp.*
+lib.*
+
+#compiled extensions
+*.pyd
+
+#python cache
+__pycache__/
+
+
+
